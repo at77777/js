@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    min-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background: chocolate;
+
+}
+
+.user-block, .user-details-block, .posts-block, .post-details-block, .comments-block {
+    background: blanchedalmond;
+    border: black solid 2px;
+    margin: 3px;
+
+}
+
+.user-block {
+    width: 48%;
+    height: 16%;
+    min-width: 200px;
+    min-height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.btn {
+    width: 100px;
+    height: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: black solid 3px;
+    margin: 5px;
+    background: bisque;
+}
+
+.user-details-block {
+    width: 98%;
+    min-width: 800px;
+    min-height: 320px;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.user-details-block-item {
+    width: 49%;
+    margin-top: 7px;
+    
+
+}
+
+.button {
+    position: absolute;
+    top: 340px;
+    margin: 3px;
+
+}
+
+.posts-block {
+    width: 98%;
+    min-width: 800px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    top: 372px;
+    left: 1%;
+}
+
+.post {
+    width: 18%;
+    margin: 7px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.post-details-block {
+    width: 98%;
+    min-width: 800px;
+    height: 165px;
+    position: absolute;
+    top: 7px;
+    left: 1%;
+
+
+}
+
+.post-details-block-item {
+    margin: 7px;
+
+}
+
+.comments-block {
+    width: 98%;
+    min-width: 800px;
+    position: absolute;
+    top: 180px;
+    left: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.comment {
+    width: 24%;
+
+
+}
+
+.comment-item {
+    margin: 7px;
+}
